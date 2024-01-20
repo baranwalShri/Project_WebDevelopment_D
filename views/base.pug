@@ -1,0 +1,48 @@
+doctype html  
+html
+  head
+    title Magic Academy
+    block scripts
+    block style
+    body
+    nav#navbar 
+       ul
+          div#logo 
+             img(src="/static/img/dance3.jpg")
+             | MD
+          li #[a(href="/") Home]
+          li #[a(href="/#aboutSection") About Us]
+          li #[a(href="/#experinceSection ") Services ]
+          li #[a(href="/#sponsorSection") Our Clients ]
+          li #[a(href="#detailSection") Contact Us] 
+          li #[a(href="trainer") Trainer]
+    
+    block content
+    footer#detailSection 
+       div.detail-box 
+          div.navb
+             ul
+                   li #[a(href="/") Home]
+                   li #[a(href="#aboutSection") About Us]
+                   li #[a(href="#experinceSection ") Services ]
+                   li #[a(href="/") Privacy Policy ]
+                   li #[a(href="/") Terms & Condition] 
+       div.detail-box
+          div.detailContact 
+                h3 Contact
+          div.contact
+             ul
+                  li Phone no.
+                  li +91-123-4567891
+                  li Fax:
+                  li +91-123-4567891
+                  li Email:
+                  li magic@Academy.com
+                  li Corporate office: 
+                  li SLN, Abc Towers, Sector-00 A, Lucknow, Uttar Pradesh-12345
+       div.detail-box 
+          div.detailHead
+             h1 MAGIC Academy
+          div.head
+             | Copyright © 2022 MagicAcademy.com | All rights reserved  
+             | Built using WordPress and the Highlight Theme   

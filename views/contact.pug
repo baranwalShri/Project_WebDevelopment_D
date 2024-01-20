@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style 
+      include ../static/style.css
+      include ../static/styleContact.css
+
+
+block content
+    div.container
+       h1 Book A Trial Class With Us
+       p  Fill the form and our representative will contact you soon !
+       form(action="/contact",method="post",class="myForm") 
+            input(type="text,",class="myInput",name="name",placeholder="Enter your name")
+            input(type="phone,",class="myInput",name="phone",placeholder="Enter your phone number ")
+            input(type="email,",class="myInput",name="email",placeholder="Enter your email id")
+            input(type="text,",class="myInput",name="location",placeholder="Location")            
+            select#act(name="activity",class="myInput")
+              option(value='clas',selected='') Classical Dance
+              option(value='hiphop') Hip Hop
+              option(value='belly dance') Belly Dance  
+              option(value='kathak') kathak  
+              option(value='dandiya') Dandiya  
+              option(value='garba') Garba  
+              option(value='acting') Acting 
+              option(value='bachata') Bachata  
+              option(value='odissi') Odissi
+              option(value='salsa') Salsa  
+              option(value='street') Street Dance 
+              option(value='bhartnatyam') Bhratnatyam Dance 
+              option(value='another') Another    
+            input(type="password",class="myInput",name="password",placeholder="Enter your Password")
+            input(type="password",class="myInput",name="password2",placeholder="Rewrite your Password")
+            input(type="reset",class="btn", value="reset now")
+            button(class="btn")
+                | Submit    
+            
+
+
+ 
+
+
+
+    

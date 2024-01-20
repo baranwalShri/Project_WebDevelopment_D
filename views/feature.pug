@@ -1,0 +1,27 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style 
+      include ../static/style.css
+      include ../static/styleFeature.css
+
+block content
+    div.features 
+       h1 Feature
+       div.dance
+          img(src="/static/img/Bachata.jpg", alt="")
+          img(src="/static/img/Break.jpg", alt="")
+          img(src="/static/img/belly.jpg", alt="")
+          img(src="/static/img/bharat.jpg", alt="")
+          img(src="/static/img/Dandiya.jpg", alt="")
+          img(src="/static/img/garba.jpg", alt="")
+          img(src="/static/img/hiphop.jpg", alt="")
+          img(src="/static/img/odissi.jpg", alt="")
+          img(src="/static/img/salsa.jpg", alt="")
+          img(src="/static/img/street.jpg", alt="")
+          img(src="/static/img/kathak.jpg", alt="")
+          img(src="/static/img/dancee.jpg", alt="")
+

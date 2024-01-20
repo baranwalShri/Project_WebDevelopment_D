@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Baloo+Bhaijaan+2:wght@600&family=Dancing+Script:wght@600&family=Lobster&family=Roboto+Slab:wght@500&family=Smooch+Sans:wght@100&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.features{
+     background-color: black;
+}
+.dance img{
+    height: 230px;
+}
+.features h1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: white;
+    /* margin: 0px 40px;  */
+    padding: 10px 60px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+@media only screen and  (max-width:1320px){
+    .features{
+        background-color: black;
+    /* align-items: center; */
+
+   }
+   .dance img{
+    height: 200px;
+    display: block;
+    /* align-items: center; */
+    /* width: 100%; */
+    margin: auto;
+}
+   
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Baloo+Bhaijaan+2:wght@600&family=Dancing+Script:wght@600&family=Lobster&family=Roboto+Slab:wght@500&family=Smooch+Sans:wght@100&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    background: center / cover no-repeat url('/static/img/trainer.jpg');
+    background-color: black;
+    min-height: 85vh;
+    margin-top: -15px;
+    height: 800px;
+}
+.container h1{
+    color: black;
+}
+.container p{
+    color: black;
+}
+
+@media only screen and  (max-width:1320px){
+    .container{
+        min-height: 50vh;
+    }
+}

@@ -1,0 +1,106 @@
+//- index.pug
+doctype html
+html
+  head
+    title Sln Dance Academy
+    style
+      include ../static/style.css
+      include ../static/styleContact.css
+  body
+    nav#navbar 
+       ul
+          div#logo 
+             img(src="/static/img/dance3.jpg")
+             | MD
+          li #[a(href="/") Home]
+          li #[a(href="#aboutSection") About Us]
+          li #[a(href="#experinceSection ") Services ]
+          li #[a(href="#sponsorSection") Our Clients ]
+          li #[a(href="#detailSection") Contact Us]
+          li #[a(href="contact") Book For Trial]
+          li #[a(href="trainer") Trainer]
+    section#introSection 
+         div Welcome to MAGIC Academy 
+         div.small Make A Globally Integrated Community
+    section#aboutSection 
+         h1 About Us
+         p MD, a non-profit NGO engaged in cultural exchange programs in India and abroad since 2019 has done pioneering work in peace building through the medium of culture exchange.With culture as the backdrop and a belief that an understanding of each other's cultures breeeds tolerance and eventually mutual respect and peace, the organization has done path-breaking work at a global level. From culture exchange programs between different countries to promoting people to people contact through culture between conflicting regions, the NGO's work has had a massive impact across the world.
+         p MD has to its credit numerous projects and events hosted across the country and China, Russia, South Africa, UK, Sri Lanaka and Pakistan among others. 
+         p MD also undertakes the world's largest oral histories "Exchange for Change" program, which is a year-long activity culminating in select children visiting each other's countries. This program has been successfully operational since 2021 connecting 32 schools and over 20,000 children from 9 cities.       
+    section#missonSection 
+        h2 Our Mission 
+        div.card 
+           h3 Dance Perfection
+           div.card-box 
+              div.card-img
+                img(src="/static/img/dance1.png")
+              div.card-content 
+                p Best dance academy of the universe 
+        div.card 
+           h3 Work the way you like
+           div.card-box 
+              div.card-img
+                img(src="/static/img/dance4.png")
+              div.card-content 
+                p This is the best acting palateform for passionate 
+        div.card 
+           h3 Expert Teaching
+           div.card-box 
+              div.card-img
+                img(src="/static/img/song.png")
+              div.card-content 
+                p This is the best in singing 
+    section#experinceSection 
+        h2 Experience 
+        div#experience       
+          p.para  Bollywood | Body Conditioning Workout | Time Bomb | Bharatanatayam | Core Strengthening 
+          p.para  Kabhi Haan Kabhi Naa | Kathak | Stretching | Nacho Becho | Folk | Tabata | Adla Badli | Club Dance Forms
+          p.para  Functional Training | Tongue Twister | Latin and Ballroom | Pilates | Leaderboard | Lifts and Tricks | Step Burn
+          p.para  Artist | Bollyhop | Acting | Institutes | Street Dancing | Garbaerobics | Contests  |Contemporary | Yoga | Events
+          p.para  Jazz | Sare ga ma | Ballet | Singing | Tap Dance | Behind The Scenes | Flamenco | Dance Diaries | Odissi
+          p.para  Kuch Crazy Ho Jaye
+          div.featureBtn 
+          a(href="feature" class="btn") Feature
+
+    section#sponsorSection 
+        h2 Our Sponsors 
+        div#sponsors
+            img(src="/static/img/skype.png",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/hplogo.png",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/apple.jpg",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/microsoftlo.jpg",alt="Sponsor Image",class="spImage")
+    footer#detailSection 
+        div.detail-box 
+            div.navb
+                ul
+                   li #[a(href="/") Home]
+                   li #[a(href="#aboutSection") About Us]
+                   li #[a(href="#experinceSection ") Services ]
+                   li #[a(href="/") Privacy Policy ]
+                   li #[a(href="/") Terms & Condition] 
+        div.detail-box
+            div.detailContact 
+                h3 Contact
+            div.contact
+                ul
+                  li Phone no.
+                  li +91-123-4567891
+                  li Fax:
+                  li +91-123-4567891
+                  li Email:
+                  li magic@Academy.com
+                  li Corporate office: 
+                  li SLN, Abc Towers, Sector-00 A, Lucknow, Uttar Pradesh-12345
+        div.detail-box 
+            div.detailHead
+                h1 MAGIC Academy
+            div.head
+                | Copyright © 2022 MagicAcademy.com | All rights reserved  
+                | Built using WordPress and the Highlight Theme
+      
+
+    //- footer#footer 
+    //-     | Copyright © 2022 SlnDanceAcademy.com | All rights reserved  
+    script
+      include ../static/index.js
+  
